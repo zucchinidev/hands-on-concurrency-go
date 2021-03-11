@@ -6,7 +6,7 @@
 
 ### Implement a non-concurrent solution to the data parallel barycenter problem.
 
-* Create a program to generate random bodies
+* Create a program to generate random bodies (cmd folder): Eg.: go run naiveBaryCenter/cmd/main.go 1000000 > naiveBaryCenter/1millbodies.txt
 * Load those bodies from a file into memory
 * Find the barycenter of those loaded bodies
 
