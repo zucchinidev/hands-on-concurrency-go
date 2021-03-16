@@ -1,9 +1,10 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
-	"io"
 	"os"
+	"sync"
 	"time"
 )
 
@@ -58,6 +59,21 @@ func avgMassPointsWeighted(a, b MassPoint) MassPoint {
 	return fromWeightedSubspace(avgMassPoints(aWeighted, bWeighted))
 }
 
+func stringToPointAsync(s string, c chan<- MassPoint, wg *sync.WaitGroup) {
+	defer wg.Done()
+
+	var newMassPoint MassPoint
+	_, err := fmt.Sscanf(s, "%f:%f:%f:%f", &newMassPoint.x, &newMassPoint.y, &newMassPoint.z, &newMassPoint.mass)
+	if err != nil {
+		return
+	}
+	c <- newMassPoint
+}
+
+func avgMassPointsWeightedAsync(a, b MassPoint, c chan<- MassPoint) {
+	c <- avgMassPointsWeighted(a, b)
+}
+
 func main() {
 	args := os.Args
 	if len(args) != 2 {
@@ -74,19 +90,33 @@ func main() {
 
 	var massPoints []MassPoint
 	startLoading := time.Now()
-	for {
-		var newMasPoint MassPoint
-		_, err := fmt.Fscanf(f, "%f:%f:%f:%f", &newMasPoint.x, &newMasPoint.y, &newMasPoint.z, &newMasPoint.mass)
 
-		if err != nil && err == io.EOF {
+	reader := bufio.NewReader(f)
+	massPointsChan := make(chan MassPoint, 128)
+	var wg sync.WaitGroup
+
+	for {
+		str, errReading := reader.ReadString('\n')
+		if errReading != nil || len(str) == 0 { // no more lines
 			break
 		}
 
-		if err != nil {
-			continue // malformed line
-		}
+		wg.Add(1)
+		go stringToPointAsync(str, massPointsChan, &wg)
 
-		massPoints = append(massPoints, newMasPoint)
+	}
+	syncChan := make(chan bool)
+	go func() { wg.Wait(); syncChan <- false }()
+
+	run := true
+
+	for run || len(massPointsChan) > 0 {
+		select {
+		case p := <-massPointsChan:
+			massPoints = append(massPoints, p)
+		case _ = <-syncChan:
+			run = false
+		}
 	}
 
 	// Now we'll report how many points we loaded
@@ -100,14 +130,24 @@ func main() {
 		os.Exit(1)
 	}
 
+	c := make(chan MassPoint, len(massPoints)/2) // do not do this in production, a lot of memory would be used. Implement some kind of limit
+
 	startCalculation := time.Now()
 
 	for len(massPoints) != 1 {
 		var newMassPoints []MassPoint
+
+		goroutines := 0
+
 		// we do not want run off the end
 		for i := 0; i < len(massPoints)-1; i += 2 {
 			// dealing with pairs of MassPoints each time
-			newMassPoints = append(newMassPoints, avgMassPointsWeighted(massPoints[i], massPoints[i+1]))
+			go avgMassPointsWeightedAsync(massPoints[i], massPoints[i+1], c)
+			goroutines++
+		}
+
+		for i := 0; i < goroutines; i++ {
+			newMassPoints = append(newMassPoints, <-c)
 		}
 
 		// Now because we only check that we haven't run off the end,

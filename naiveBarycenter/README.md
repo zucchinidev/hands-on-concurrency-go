@@ -15,3 +15,9 @@
 <p>
     <img src="https://raw.githubusercontent.com/zucchinidev/hands-on-concurrency-go/master/naiveBarycenter/img/result.png" />
 </p>
+
+#### Result after refactor
+
+<p>
+    <img src="https://raw.githubusercontent.com/zucchinidev/hands-on-concurrency-go/master/naiveBarycenter/img/result_2.png" />
+</p>
