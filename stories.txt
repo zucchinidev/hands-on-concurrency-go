@@ -1,0 +1,198 @@
+U.S. Supreme Court rebuffs Facebook appeal in user tracking lawsuit: https://www.reuters.com/article/us-usa-court-facebook/u-s-supreme-court-rebuffs-facebook-appeal-in-user-tracking-lawsuit-idUSKBN2BE1TX
+by LinuxBender on HackersNews
+
+How Safe Is Zig?: https://scattered-thoughts.net/writing/how-safe-is-zig/
+by bshanks on HackersNews
+
+Thunderbird 2020 Financial Report: https://groups.google.com/g/tb-planning/c/-jbmYvYdX1g
+by joeyespo on HackersNews
+
+Launch HN: Kitemaker (YC W21) – Fast alternative to Jira, built for remote teams: 
+by kevsim on HackersNews
+
+The S in IoT is for Security: https://puri.sm/posts/the-s-in-iot-is-for-security/
+by rauhl on HackersNews
+
+High-income tax avoidance far larger than thought, new paper estimates: https://www.wsj.com/articles/high-income-tax-avoidance-far-larger-than-thought-new-paper-estimates-11616364001
+by tysone on HackersNews
+
+Ask HN: Why do you still use Wordpress in 2021?: 
+by colesantiago on HackersNews
+
+Attributes and predictors of long Covid: https://www.nature.com/articles/s41591-021-01292-y
+by luu on HackersNews
+
+EU rebuffs UK calls to ship AstraZeneca Covid vaccines from Europe: https://www.reuters.com/article/us-health-coronavirus-eu-uk-idUSKBN2BD0RZ
+by 1cvmask on HackersNews
+
+In 2020, two thirds of Google searches ended without a click: https://sparktoro.com/blog/in-2020-two-thirds-of-google-searches-ended-without-a-click/
+by randfish on HackersNews
+
+Data Science in Julia for Hackers: https://datasciencejuliahackers.com/
+by dklend122 on HackersNews
+
+Sovereign writers and Substack: https://stratechery.com/2021/sovereign-writers-and-substack/
+by feross on HackersNews
+
+Live feed from Iceland erupting volcano [video]: https://www.ruv.is/frett/2021/03/20/live-feed-from-iceland-volcano
+by lknik on HackersNews
+
+Crystal 1.0 – What to expect: https://crystal-lang.org/2021/03/22/crystal-1.0-what-to-expect.html
+by mfkp on HackersNews
+
+In January, there were more real-estate agents than homes for sale in the U.S.: https://www.wsj.com/articles/new-realtors-pile-into-hot-housing-market-most-find-it-tough-going-11616328002
+by undefined1 on HackersNews
+
+Cold Fusion or Low-Energy Nuclear Reactions, U.S. Navy Researchers Reopen Case: https://spectrum.ieee.org/tech-talk/energy/nuclear/cold-fusion-or-low-energy-nuclear-reactions-us-navy-researchers-reopen-case
+by tmfi on HackersNews
+
+EU vaccine rollout severely lags behind: https://www.statista.com/chart/24471/covid-19-vaccine-doses-per-100-people/
+by undefined1 on HackersNews
+
+Top Health Insurance Provider Tells Employees Not to Hire White Men: https://www.dailywire.com/news/report-top-health-insurance-provider-tells-employees-not-to-hire-white-men
+by andyxor on HackersNews
+
+Scala projects are difficult to maintain: https://mungingdata.com/scala/maintenance-nightmare-upgrade/
+by MrPowers on HackersNews
+
+Are you hosting a memetic parasite?: https://apxhard.com/2021/03/17/are-you-hosting-a-mimetic-parasite/
+by monort on HackersNews
+
+Why Do We Call These “DuPont” Connectors?: http://www.mattmillman.com/why-do-we-call-these-dupont-connectors/
+by zdw on HackersNews
+
+Was German unification inevitable?: https://www.historytoday.com/archive/head-head/was-german-unification-inevitable
+by samclemens on HackersNews
+
+The ecosystem of the Go programming language: https://henvic.dev/posts/go/
+by henvic on HackersNews
+
+Ask HN: What are some “10x” software product innovations you have experienced?: 
+by pramodbiligiri on HackersNews
+
+FediDB – Developer Tools for ActivityPub: https://fedidb.org/
+by LaSombra on HackersNews
+
+Rents for the rich are plummeting. Rents for the poor are rising. Why?: https://www.washingtonpost.com/opinions/2021/03/22/rents-rich-are-plummeting-rents-poor-are-rising-why/
+by ece on HackersNews
+
+Ask HN: What are some cheap gadgets everyone should have while WFH?: 
+by psikomanjak on HackersNews
+
+Concern in Europe that the Ariane 6 and Vega-C rockets will not be competitive: https://arstechnica.com/science/2021/03/european-leaders-say-an-immediate-response-needed-to-the-rise-of-spacex/
+by tosh on HackersNews
+
+OpenSSL will release a high-severity issue fix on 25th: https://mta.openssl.org/pipermail/openssl-announce/2021-March/000196.html
+by yread on HackersNews
+
+Firefox 87 trims HTTP Referrers by default to protect user privacy: https://blog.mozilla.org/security/2021/03/22/firefox-87-trims-http-referrers-by-default-to-protect-user-privacy/
+by twapi on HackersNews
+
+Two dies in one package: Teardown of a vintage ROM with double the storage: https://www.righto.com/2021/03/two-dies-in-one-package-teardown-of.html
+by parsecs on HackersNews
+
+Please don't upgrade Docker without asking first: https://github.com/docker/roadmap/issues/183
+by timmytokyo on HackersNews
+
+Nominet (.uk) EGM result: four directors have been removed from the board: https://www.nominet.uk/nominet-egm-result/
+by blibble on HackersNews
+
+Docker for Mac M1 RC: https://docs.docker.com/docker-for-mac/apple-m1/
+by mikkelam on HackersNews
+
+Clone Wars: Open-source clones of popular sites: https://gourav.io/clone-wars
+by feross on HackersNews
+
+Show HN: Make continuous reforestation part of your daily workflow: https://github.com/protontypes/continuous-reforestation
+by protontypes on HackersNews
+
+Bosses Are Clueless That Workers Are Miserable and Looking to Leave: https://www.bloomberg.com/news/articles/2021-03-22/bosses-are-clueless-that-workers-are-miserable-and-looking-to-leave
+by ipsocannibal on HackersNews
+
+NYC Spent Half a Million Dollars per Inmate in 2020, Report Says: https://www.bloomberg.com/news/articles/2021-03-10/nyc-spent-half-a-million-dollars-per-inmate-in-2020-report-says
+by undefined1 on HackersNews
+
+Why the Wuhan lab leak theory shouldn't be dismissed: https://eu.usatoday.com/in-depth/opinion/2021/03/22/why-covid-lab-leak-theory-wuhan-shouldnt-dismissed-column/4765985001/
+by ruaraidh on HackersNews
+
+Red seaweed supplementation reduces enteric methane by over 80% in beef steers: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0247820
+by giuliomagnifico on HackersNews
+
+Early-Retirement Update: https://livingafi.com/2021/03/17/the-2021-early-retirement-update/
+by dkarp on HackersNews
+
+How the Web Audio API is used for browser fingerprinting: https://fingerprintjs.com/blog/audio-fingerprinting/
+by iamvalentin on Reddit /r/programming
+
+Reducing AWS EMR costs with Spot, Task Nodes, and Instance Types: https://medium.com/23andme-engineering/reducing-aws-emr-costs-451afe83cc7d
+by pkpenton on Reddit /r/programming
+
+Getting Drunk with Datalog: https://ianthehenry.com/posts/getting-drunk-with-datalog/
+by markedtrees on Reddit /r/programming
+
+Tips on Quality Code Reviews: https://zivce.medium.com/how-to-become-a-high-quality-code-reviewer-230b007ea339
+by Zivce on Reddit /r/programming
+
+Free Udemy Course – 23 March 2021: https://dailycourse.top/free-udemy-course-23-march-2021/
+by jpntr on Reddit /r/programming
+
+Some useless nerd project: https://super-silicon-valley.web.app/
+by _santoshp_ on Reddit /r/programming
+
+Mathematics proven to end in contradiction in 1 line: http://gamahucherpress.yellowgum.com/wp-content/uploads/A-Theory-of-Everything.pdf
+by qiling on Reddit /r/programming
+
+Modeling and Reasoning about DOM Events - capturing, bubbling, and reactiveness: https://world.cs.brown.edu/~sk/Publications/Papers/Published/lckqk-model-reason-dom-events/paper.pdf
+by fagnerbrack on Reddit /r/programming
+
+RedTorch Formed from Ashes of Norse Corp.: https://krebsonsecurity.com/2021/03/redtorch-formed-from-ashes-of-norse-corp/
+by feross on Reddit /r/programming
+
+"The Instagram for Articles", a place to share your favorite topics in category collections: https://curateyourshlf.com/sign-up
+by JeriDorris on Reddit /r/programming
+
+Hey I found an exploit to add some for the homeschooling side i can about 400 students a message at a link or a progamm up to 8mb what should i do? (Die can see my real name so i can not red pill) Probably is fixied in about 9 to 12 Hours: https://elearn.sachsen.schule/moodle/my/
+by jeromekille on Reddit /r/programming
+
+There are several tools that you can choose to seamlessly integrate into your workflow according to the compatibility with your technology stack.: https://dzone.com/articles/continuous-code-quality-and-automated-code-review
+by saif_sadiq on Reddit /r/programming
+
+Richard Stallman is Coming Back to the Board of the Free Software Foundation: http://techrights.org/2021/03/21/richard-stallman-is-coming-back-to-the-board-of-the-free-software-foundation-founded-by-himself-35-years-ago/
+by chucker23n on Reddit /r/programming
+
+Are You Using The Right Cache?: https://www.lpalmieri.com/posts/caching-types-in-a-microservice-architecture/
+by LukeMathWalker on Reddit /r/programming
+
+Monkey Transmitting Language Translation and Mapping Data Now: https://youtube.com/watch?v=2dizZcEfyRI&amp;feature=share
+by InternetMonkeyBoy on Reddit /r/programming
+
+Free Course on Functional Programming in Haskell (University of Nottingham): https://www.i-programmer.info/news/150-training-a-education/14437-free-course-on-functional-programming-in-haskell-.html
+by pmz on Reddit /r/programming
+
+Bootstrapping our CI: How Nextjournal builds itself: https://nextjournal.com/blog/ci
+by Heliosmaster on Reddit /r/programming
+
+The Crystal programming language hits 1.0.0: https://crystal-lang.org/2021/03/22/crystal-1.0-what-to-expect.html
+by circular_rectangle on Reddit /r/programming
+
+Read a paper: A modern compiler for the French tax code: https://youtu.be/ES7fkec3Jv8
+by ggvh on Reddit /r/programming
+
+Cognitive Biases and Software Development [pdf]: http://web.engr.oregonstate.edu/~sarmaa/wp-content/uploads/2020/08/icse20-chattopadhyay.pdf
+by azhenley on Reddit /r/programming
+
+Scala is a Maintenance Nightmare: https://mungingdata.com/scala/maintenance-nightmare-upgrade/
+by yogthos on Reddit /r/programming
+
+Vector API (JEP 338) is about 1.7x faster: Benchmark Results for Matrix Multiplication, Image Convolution, and Image Thresholding.: https://github.com/lessthanoptimal/VectorPerformance
+by lessthanoptimal on Reddit /r/programming
+
+Making your first kernel module: https://klotzandrew.com/blog/making-your-first-linux-kernel-module
+by boxstripe on Reddit /r/programming
+
+I built a bot that buys bitcoin every time Elon Musk tweets about bitcoin and open sourced it: https://github.com/CyberPunkMetalHead/bitcoin-bot-buy-if-elon-tweets
+by CyberPunkMetalHead on Reddit /r/programming
+
+What Was CP/M, and Why Did It Lose to MS-DOS?: https://www.howtogeek.com/718124/what-was-cpm-and-why-did-it-lose-to-ms-dos/
+by mariuz on Reddit /r/programming
+
