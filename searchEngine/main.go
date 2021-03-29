@@ -64,6 +64,7 @@ func search(w http.ResponseWriter, r *http.Request) {
 	// searchhn.com/search?q=making
 	if query == "" {
 		http.Error(w, "Search parameter q is required to search.", http.StatusNotAcceptable)
+		return
 	}
 
 	w.Write([]byte("<html><body>"))
@@ -75,13 +76,13 @@ func search(w http.ResponseWriter, r *http.Request) {
 			w.Write([]byte(createLink(s)))
 		}
 	}
-	w.Write([]byte("<a href='../>Back</a>"))
+	w.Write([]byte("<a href='../'>Back</a>"))
 	w.Write([]byte("</html></body>"))
 }
 
 func topTen(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("<html><body>"))
-	form := "<form action='search' method='get'>Search: <input type='submit'></form>"
+	form := "<form action='search' method='get'>Search: <input type='text' name='q'/> <input type='submit'/></form>"
 	w.Write([]byte(form))
 	for i := 0; i < 10 && len(stories)-1 >= i; i++ {
 		s := stories[i]
