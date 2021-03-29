@@ -154,6 +154,4 @@ by r_singh on HackersNews
 The Raspberry Pi can boot off NVMe SSDs now: https://www.jeffgeerling.com/blog/2021/raspberry-pi-can-boot-nvme-ssds-now
 by geerlingguy on HackersNews
 
-The virus that causes the common cold can effectively boot the Covid virus out: http://bbc.com/news/health-56483445
-by discocrisco on HackersNews
 
